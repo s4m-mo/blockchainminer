@@ -1,8 +1,6 @@
 # Blockchain Miner
 
-A simple, concurrent blockchain miner framework implemented in Go.
-
-> #### Disclaimer: this is not a product intended to be used for real mining, since I have little expertise on the topic. We do not take any responsibility or liability around any damage, financial loss or loss of any kind caused or in any way linked to this software. See the LICENSE file for more information.
+A simple package to understand how blockchains work.
 
 ## Installation
 
@@ -22,7 +20,7 @@ import (
 
 ## Usage
 
-The bulk of the API is here. More detail is on [pkg.go.dev](https://pkg.go.dev/github.com/sam-the-programmer/blockchainminer)
+The bulk of the API is here. More detail is on [pkg.go.dev](https://pkg.go.dev/github.com/s4m-mo/blockchainminer)
 
 ```go
 package main
@@ -30,8 +28,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/sam-the-programmer/blockchainminer/hash"
-	"github.com/sam-the-programmer/blockchainminer/miner"
+	"github.com/s4m-mo/blockchainminer/hash"
+	"github.com/s4m-mo/blockchainminer/miner"
 )
 
 func main() {
