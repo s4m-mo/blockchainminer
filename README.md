@@ -5,14 +5,14 @@ A simple package to understand how blockchains work.
 ## Installation
 
 ```shell
-go get github.com/sam-the-programmer/blockchainminer
+go get github.com/s4m-mo/blockchainminer
 ```
 
 Then, import it with...
 
 ```go
 import (
-	m "github.com/sam-the-programmer/blockchainminer/miner"
+	m "github.com/s4m-mo/blockchainminer/miner"
 )
 ```
 
